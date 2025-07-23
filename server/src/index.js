@@ -1,5 +1,6 @@
 const express = require('express');
 const pool = require('./db');
+
 const cors = require('cors');
 const dotenv = require('dotenv');
 
@@ -17,6 +18,7 @@ pool.getConnection()
     conn.release();
   })
   .catch(err => console.error('MySQL connection error:', err));
+
 
 app.get('/', (req, res) => res.send('JMC API running'));
 

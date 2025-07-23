@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+
 const pool = require('../db');
 
 // Get all services
@@ -11,6 +12,7 @@ router.get('/', async (req, res) => {
     console.error(err);
     res.status(500).json({ error: 'Database error' });
   }
+
 });
 
 // Create a service (protected route in real app)
