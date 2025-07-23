@@ -15,12 +15,22 @@ export default function Header() {
           <a href="/brochure" className="hover:text-orange-400">Brochure</a>
           <a href="/contact" className="hover:text-orange-400">Contact</a>
         </nav>
-        <a
-          href="/contact"
-          className="px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition hidden md:inline-block"
-        >
-          Demander un devis
-        </a>
+        <div className="space-x-4 hidden md:flex">
+          <a
+            href="/brochure.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
+          >
+            Brochure
+          </a>
+          <a
+            href="/contact"
+            className="px-6 py-2 bg-orange-300 text-white rounded-lg hover:bg-orange-400 transition"
+          >
+            Demander un devis
+          </a>
+        </div>
       </div>
     </header>
   );
