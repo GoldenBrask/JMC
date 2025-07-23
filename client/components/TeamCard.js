@@ -1,6 +1,5 @@
 export default function TeamCard({ member }) {
   return (
-
     <div className="group text-center p-4">
       <img
         src={member.photo}

@@ -1,6 +1,4 @@
-
 import Head from 'next/head';
-
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -19,7 +17,6 @@ export default function Contact() {
           <input type="email" placeholder="Email" className="w-full border p-2" />
           <textarea placeholder="Message" className="w-full border p-2" />
           <button type="submit" className="px-4 py-2 bg-blue-600 text-white rounded">Envoyer</button>
-
         </form>
       </main>
       <Footer />

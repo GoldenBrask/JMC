@@ -12,7 +12,6 @@ export default function BrochureSection() {
       >
         Télécharger la brochure
       </a>
-
     </section>
   );
 }
