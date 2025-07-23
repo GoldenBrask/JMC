@@ -1,20 +1,22 @@
+
+import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import TeamCard from '../components/TeamCard';
+import TeamGrid from '../components/TeamGrid';
+import { team } from '../data/mock';
 
 export default function Equipe() {
-  const team = [
-    { name: 'Alice', role: 'Dev', bio: 'Expert web' },
-    { name: 'Bob', role: 'Data Scientist', bio: 'Passionné data' }
-  ];
   return (
     <>
+      <Head>
+        <title>Notre équipe - JMC</title>
+        <meta name="description" content="Découvrez notre équipe" />
+      </Head>
       <Header />
-      <main>
-        <h1>Notre équipe</h1>
-        {team.map(member => (
-          <TeamCard key={member.name} member={member} />
-        ))}
+      <main className="container mx-auto p-6">
+        <h1 className="text-2xl font-bold mb-6">Notre équipe</h1>
+        <TeamGrid members={team} />
+  
       </main>
       <Footer />
     </>
