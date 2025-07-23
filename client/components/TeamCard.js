@@ -1,5 +1,6 @@
 export default function TeamCard({ member }) {
   return (
+
     <div className="group text-center p-4">
       <img
         src={member.photo}
@@ -11,6 +12,7 @@ export default function TeamCard({ member }) {
       <p className="mt-2 text-sm opacity-0 group-hover:opacity-100 transition">
         {member.bio}
       </p>
+
     </div>
   );
 }

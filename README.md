@@ -4,6 +4,7 @@ Projet de site vitrine pour la Junior-Entreprise JMC Aix-Marseille.
 
 ## Structure
 
+
 - `client/` – Application React (Next.js)
 - `server/` – API Node.js/Express avec MySQL
 - `cms/` – Configuration Strapi ou autre CMS
@@ -13,6 +14,7 @@ Projet de site vitrine pour la Junior-Entreprise JMC Aix-Marseille.
 - Node.js 18+
 - MySQL (base `xowu0020_website`)
 
+
 ## Installation
 
 ```bash
@@ -21,8 +23,10 @@ cd server && npm install
 cd ../client && npm install
 ```
 
+
 Créez ensuite la base de données MySQL `xowu0020_website` et exécutez le
 script `server/db/init.sql` pour créer les tables nécessaires.
+
 
 ## Lancement en développement
 

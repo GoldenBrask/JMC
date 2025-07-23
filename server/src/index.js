@@ -17,7 +17,6 @@ pool.getConnection()
     conn.release();
   })
   .catch(err => console.error('MySQL connection error:', err));
-
 app.get('/', (req, res) => res.send('JMC API running'));
 
 // Routes

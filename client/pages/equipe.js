@@ -1,3 +1,4 @@
+
 import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -15,6 +16,7 @@ export default function Equipe() {
       <main className="container mx-auto p-6">
         <h1 className="text-2xl font-bold mb-6">Notre équipe</h1>
         <TeamGrid members={team} />
+  
       </main>
       <Footer />
     </>
