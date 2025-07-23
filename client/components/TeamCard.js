@@ -11,6 +11,7 @@ export default function TeamCard({ member }) {
       <p className="mt-2 text-sm opacity-0 group-hover:opacity-100 transition">
         {member.bio}
       </p>
+
     </div>
   );
 }

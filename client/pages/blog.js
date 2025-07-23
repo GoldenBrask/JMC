@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 export default function Blog() {
   return (
     <>
+
       <Head>
         <title>Blog - JMC</title>
         <meta name="description" content="Actualités et articles" />

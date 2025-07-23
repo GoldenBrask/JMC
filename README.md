@@ -24,6 +24,7 @@ cd ../client && npm install
 Créez ensuite la base de données MySQL `xowu0020_website` et exécutez le
 script `server/db/init.sql` pour créer les tables nécessaires.
 
+
 ## Lancement en développement
 
 ```bash
