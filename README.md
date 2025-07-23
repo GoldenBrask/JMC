@@ -4,14 +4,10 @@ Projet de site vitrine pour la Junior-Entreprise JMC Aix-Marseille.
 
 ## Structure
 
-- `client/` – Application React (Next.js)
-- `server/` – API Node.js/Express avec MongoDB
-- `cms/` – Configuration Strapi ou autre CMS
 
 ## Prérequis
 
-- Node.js 18+
-- MongoDB
+
 
 ## Installation
 
@@ -20,6 +16,7 @@ Projet de site vitrine pour la Junior-Entreprise JMC Aix-Marseille.
 cd server && npm install
 cd ../client && npm install
 ```
+
 
 ## Lancement en développement
 
